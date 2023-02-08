@@ -1,0 +1,32 @@
+{
+  "workbench.colorTheme": "Monokai Pro",
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "FIXME",
+      "color": "#333",
+      "backgroundColor": "#e67e22"
+    },
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "TODO",
+      "color": "#333",
+      "backgroundColor": "#23cc71"
+    },
+    {
+      "text": "<!-- -->",
+      "color": "#333",
+      "backgroundColor": "#bfa826"
+    }
+  ],
+  "git.autofetch": true
+}
