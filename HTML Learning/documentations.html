@@ -59,9 +59,11 @@
     <br />
     <br />
     <br />
+    <hr />
 
     <!-- -->
     <!--NON-VOID ELEMENTS. Html Lists (Ordered list[ol] and Unordered List[ul])-->
+    <h3>HTML Lists</h3>
     <ul>
       <li>First item</li>
       <li>Second item</li>
@@ -73,9 +75,97 @@
       <li>Second item</li>
       <li>Third item</li>
     </ol>
+    <hr />
 
     <!-- -->
     <!--VOID ELEMENT: This is <img src"" alt="" (src is required)-->
+    <h3>HTML Image</h3>
     <img src="images/CA_Hotel_Resized.jpg" alt="Canada, Toronto Airbnb view" />
+    <hr />
+
+    <!-- -->
+    <!--NON-VOID ELEMENT: Html Links and Anchor Tags <a href="">Name</a>-->
+
+    <!-- Taking me to another HTML file on my local pc -->
+    <br />
+    <h3>HTML Anchor Tags and Links</h3>
+    <a href="boilerplate.html">Click this for HTML Boilerplate!</a>
+
+    <!-- Using an URL as a link -->
+    <br /><br /><br />
+    <a
+      href="https://www.youtube.com/watch?v=wGdodz6ck7g&ab_channel=BearsChillhop"
+      >Click here for some lofi!</a
+    ><br /><br />
+    <hr />
+
+    <!-- -->
+    <!--NON-VOID ELEMENT: HTML Tables-->
+    <!-- General syntax of an HTML Table -->
+    <h3>HTML Table</h3>
+    <table>
+      <caption>
+        <i>Insert what the table is about</i>
+      </caption>
+      <!-- Start of the table -->
+      <thead>
+        <!-- This is the syntax to add a row -->
+        <tr>
+          <!-- Syntax to add table headers -->
+          <th scope="col">Number</th>
+          <th scope="col">Letter</th>
+        </tr>
+      </thead>
+      <!-- Body of the table (all contents) -->
+      <tbody>
+        <tr>
+          <!-- Adding a single cell block to the table -->
+          <th scope="row">1</th>
+          <td>F</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>G</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Generating a more complicated table showcasing rowspan / colspan -->
+    <h3>Schedule Table</h3>
+    <table>
+      <caption>
+        Spring 2023 College Schedule
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="2">Seminar</th>
+        </tr>
+        <tr>
+          <th scope="col">Schedule</th>
+          <th colspan="2">Topic</th>
+        </tr>
+        <tr>
+          <th scope="col">Begin</th>
+          <th scope="col">End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 a.m.</td>
+          <td rowspan="2">5:00 p.m.</td>
+          <td>Introduction to XML</td>
+          <tr>
+            <td>Validity:DTD and Relax NG</td>
+          </tr>
+        </tr>
+        <tr>
+          <td rowspan="2">Tuesday</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
   </body>
 </html>
