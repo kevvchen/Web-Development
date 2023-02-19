@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Contacts</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <h1>My Contacts</h1>
@@ -39,12 +40,20 @@
             </td>
           </tr>
           <tr>
+            <td><label for="password">Password:</label></td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr>
             <td><label for="telephone">Telephone:</label></td>
             <td><input type="tel" id="telephone" name="Telephone #" /></td>
           </tr>
           <tr>
             <td><label for="date">Date Submitted:</label></td>
-            <td><input type="date" id="date" name="Date" /></td>
+            <td>
+              <input type="date" id="date" name="date" min="2023-02-17" />
+            </td>
           </tr>
           <tr>
             <td><label for="file">Submit file if easier:</label></td>

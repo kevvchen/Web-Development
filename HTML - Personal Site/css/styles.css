@@ -1,0 +1,20 @@
+body {
+  /* These are CSS Properties */
+  background-color: rgb(117 190 218 / 0.5);
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: medium;
+  width: 2%;
+}
+
+h1 {
+  color: #333030;
+}
+
+h3 {
+  color: #66bfbf;
+}
