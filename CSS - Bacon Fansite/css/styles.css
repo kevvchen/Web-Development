@@ -1,0 +1,44 @@
+/*********************TAG SELECTORS**********************/
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+/*********************CLASS SELECTORS**********************/
+.bacon {
+  background-color: red;
+}
+
+.bacon:hover {
+  background-color: orange;
+}
+
+.broccoli {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*********************ID SELECTORS**********************/
+#heading {
+  color: blue;
+}
+
+/*
+IDs vs Classes:
+1. Can only have one unique ID in a single HTML file while we can name several classes with the same name in the same HTML file
+Use ID to identify an element where there is only a SINGLE one on the page (nav / heading1)
+Class (blog comments)
+Think of Class as names and ID as SSN
+2. Can specify many classes for one HTML element, but cannot do that for ID
+
+
+ID or Class selectors will override the tag selectors
+ID is more specific than Class selectors
+*/
